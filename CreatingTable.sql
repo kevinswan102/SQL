@@ -1,4 +1,4 @@
-#Kevin Swan Assignment 2
+#Kevin Swan 
 use swank8; 
 DROP TABLE IF EXISTS tblUser; 
 
