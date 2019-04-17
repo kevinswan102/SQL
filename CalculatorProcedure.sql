@@ -22,8 +22,7 @@ if op = '+' then
 		set result = num1 / num2;
     else 
 		BEGIN
-			rollback;
-			select 'Invalid operator, operation rollbacked';
+			select 'Invalid operator';
 		END; 
 
 end if; 
