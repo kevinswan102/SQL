@@ -4,11 +4,11 @@ DROP TABLE IF EXISTS tblUser;
 
 #DDL Script 
 CREATE TABLE tblUser(
-	username VARCHAR(15) PRIMARY KEY NOT NULL
+     username VARCHAR(15) PRIMARY KEY NOT NULL
     ,first__name VARCHAR(15) NOT NULL
     ,last_name	VARCHAR(15) NOT NULL
     ,as_of_date	VARCHAR(15)
-	,balance decimal(10,2) NOT NULL
+    ,balance decimal(10,2) NOT NULL
     ,ip_address varchar(30) 
 );
 
